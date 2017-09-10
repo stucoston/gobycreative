@@ -46,7 +46,7 @@ function onYouTubeIframeAPIReady(){
           e.data===YT.PlayerState.ENDED&&o(!1)
         }
       }
-    )}
+    });
   }
 }
   
