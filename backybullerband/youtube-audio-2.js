@@ -9,10 +9,10 @@
 */
 
 function onYouTubeIframeAPIReady(){
-  var e=document.getElementsByClassName("youtube-audio"),
+  var e=document.getElementsByClassName("youtube-audio");
   
   for (var i = 0, len = e.length; i < len; i++) {
-    t=document.createElement("img");
+    var t = document.createElement("img");
     t.setAttribute("id","youtube-icon"),
     t.style.cssText="cursor:pointer;cursor:hand",
   
