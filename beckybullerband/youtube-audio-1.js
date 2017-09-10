@@ -9,7 +9,7 @@
 */
 
 function onYouTubeIframeAPIReady(){
-  var e=document.getElementById("youtube-audio"),
+  var e=document.getElementById("youtube-audio-1"),
   
   t=document.createElement("img");
   t.setAttribute("id","youtube-icon"),
@@ -45,5 +45,5 @@ function onYouTubeIframeAPIReady(){
         e.data===YT.PlayerState.ENDED&&o(!1)
       }
     }
-  }
-)}
+  })
+}
