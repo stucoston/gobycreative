@@ -1,0 +1,231 @@
+/* 
+ YouTube Audio Embed 
+ --------------------
+ 
+ Author: Stu Coston
+ copyright 2017 Goby Creative LLC
+ All Rights Reserved
+ http://gobycreative.com 
+*/
+
+function onYouTubeIframeAPIReady(){
+  var 1=document.getElementById("youtube-audio-1"),
+  2=document.getElementById("youtube-audio-2"),
+  3=document.getElementById("youtube-audio-3"),
+  4=document.getElementById("youtube-audio-4"),
+  5=document.getElementById("youtube-audio-5"),
+  6=document.getElementById("youtube-audio-6"),
+  7=document.getElementById("youtube-audio-7"),
+  8=document.getElementById("youtube-audio-8"),
+  9=document.getElementById("youtube-audio-9"),
+  10=document.getElementById("youtube-audio-10"),
+  11=document.getElementById("youtube-audio-11"),
+  12=document.getElementById("youtube-audio-12"),
+  
+  t=document.createElement("img");
+  t.setAttribute("id","youtube-icon"),
+  t.style.cssText="cursor:pointer;cursor:hand",
+  
+  1.appendChild(t);
+  2.appendChild(t);
+  3.appendChild(t);
+  4.appendChild(t);
+  5.appendChild(t);
+  6.appendChild(t);
+  7.appendChild(t);
+  8.appendChild(t);
+  9.appendChild(t);
+  10.appendChild(t);
+  11.appendChild(t);
+  12.appendChild(t);
+  
+  var a=document.createElement("div");
+  a.setAttribute("id","youtube-player"),
+  
+  1.appendChild(a);
+  2.appendChild(a);
+  3.appendChild(a);
+  4.appendChild(a);
+  5.appendChild(a);
+  6.appendChild(a);
+  7.appendChild(a);
+  8.appendChild(a);
+  9.appendChild(a);
+  10.appendChild(a);
+  11.appendChild(a);
+  12.appendChild(a);
+  
+  var o=function(e){
+    var a=1?"IDzX9gL.png":"quyUPXN.png",
+    a=2?"IDzX9gL.png":"quyUPXN.png",
+    a=3?"IDzX9gL.png":"quyUPXN.png",
+    a=4?"IDzX9gL.png":"quyUPXN.png",
+    a=5?"IDzX9gL.png":"quyUPXN.png",
+    a=6?"IDzX9gL.png":"quyUPXN.png",
+    a=7?"IDzX9gL.png":"quyUPXN.png",
+    a=8?"IDzX9gL.png":"quyUPXN.png",
+    a=9?"IDzX9gL.png":"quyUPXN.png",
+    a=10?"IDzX9gL.png":"quyUPXN.png",
+    a=11?"IDzX9gL.png":"quyUPXN.png",
+    a=12?"IDzX9gL.png":"quyUPXN.png";
+    t.setAttribute("src","https://i.imgur.com/"+a)
+  };
+  
+  1.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  2.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  3.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  4.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  5.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  6.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  7.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  8.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  9.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  10.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  11.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  12.onclick=function(){
+    r.getPlayerState()===YT.PlayerState.PLAYING||r.getPlayerState()===YT.PlayerState.BUFFERING?(r.pauseVideo(),o(!1)):(r.playVideo(),o(!0))
+  };
+  
+  var r=new YT.Player("youtube-player",{
+    height:"0",
+    width:"0",
+    videoId:e.dataset.video,
+    playerVars:{
+      autoplay:1.dataset.autoplay,
+      autoplay:2.dataset.autoplay,
+      autoplay:3.dataset.autoplay,
+      autoplay:4.dataset.autoplay,
+      autoplay:5.dataset.autoplay,
+      autoplay:6.dataset.autoplay,
+      autoplay:7.dataset.autoplay,
+      autoplay:8.dataset.autoplay,
+      autoplay:9.dataset.autoplay,
+      autoplay:10.dataset.autoplay,
+      autoplay:11.dataset.autoplay,
+      autoplay:12.dataset.autoplay,
+      
+      loop:1.dataset.loop,
+      loop:2.dataset.loop,
+      loop:3.dataset.loop,
+      loop:4.dataset.loop,
+      loop:5.dataset.loop,
+      loop:6.dataset.loop,
+      loop:7.dataset.loop,
+      loop:8.dataset.loop,
+      loop:9.dataset.loop,
+      loop:10.dataset.loop,
+      loop:11.dataset.loop,
+      loop:12.dataset.loop
+    },
+    events:{
+    
+      onReady:function(1){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(2){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(3){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(4){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(5){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(6){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(7){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(8){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(9){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(10){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(11){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      onReady:function(12){
+        r.setPlaybackQuality("small"),
+        o(r.getPlayerState()!==YT.PlayerState.CUED)
+      },
+      
+      onStateChange:function(1){
+        1.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(2){
+        2.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(3){
+        3.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(4){
+        4.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(5){
+        5.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(6){
+        6.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(7){
+        7.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(8){
+        8.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(9){
+        9.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(10){
+        10.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(11){
+        11.data===YT.PlayerState.ENDED&&o(!1)
+      }
+      onStateChange:function(12){
+        12.data===YT.PlayerState.ENDED&&o(!1)
+      }
+    }
+  })
+}
