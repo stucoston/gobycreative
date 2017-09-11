@@ -114,51 +114,51 @@ function onYouTubeIframeAPIReady(){
   twelve.appendChild(divTwelve);
   
   var a=function(one){
-    var divOne=one?"IDzX9gL.png":"quyUPXN.png",
+    var divOne=one?"IDzX9gL.png":"quyUPXN.png";
     t1.setAttribute("src","https://i.imgur.com/"+divOne)
   };
  var b=function(two){
-    var divTwo=two?"IDzX9gL.png":"quyUPXN.png",
+    var divTwo=two?"IDzX9gL.png":"quyUPXN.png";
     t2.setAttribute("src","https://i.imgur.com/"+divTwo)
   };
  var c=function(three){
-    var divThree=three?"IDzX9gL.png":"quyUPXN.png",
+    var divThree=three?"IDzX9gL.png":"quyUPXN.png";
     t3.setAttribute("src","https://i.imgur.com/"+divThree)
   };
  var d=function(four){
-    var divFour=four?"IDzX9gL.png":"quyUPXN.png",
+    var divFour=four?"IDzX9gL.png":"quyUPXN.png";
     t4.setAttribute("src","https://i.imgur.com/"+divFour)
   };
  var e=function(five){
-    var divFive=five?"IDzX9gL.png":"quyUPXN.png",
+    var divFive=five?"IDzX9gL.png":"quyUPXN.png";
     t5.setAttribute("src","https://i.imgur.com/"+divFive)
   };
  var f=function(six){
-    var divSix=six?"IDzX9gL.png":"quyUPXN.png",
+    var divSix=six?"IDzX9gL.png":"quyUPXN.png";
     t6.setAttribute("src","https://i.imgur.com/"+divSix)
   };
  var g=function(seven){
-    var divSeven=seven?"IDzX9gL.png":"quyUPXN.png",
+    var divSeven=seven?"IDzX9gL.png":"quyUPXN.png";
     t7.setAttribute("src","https://i.imgur.com/"+divSeven)
   };
  var h=function(eight){
-    var divEight=eight?"IDzX9gL.png":"quyUPXN.png",
+    var divEight=eight?"IDzX9gL.png":"quyUPXN.png";
     t8.setAttribute("src","https://i.imgur.com/"+divEight)
   };
  var i=function(nine){
-    var divNine=nine?"IDzX9gL.png":"quyUPXN.png",
+    var divNine=nine?"IDzX9gL.png":"quyUPXN.png";
     t9.setAttribute("src","https://i.imgur.com/"+divNine)
   };
  var j=function(ten){
-    var divTen=ten?"IDzX9gL.png":"quyUPXN.png",
+    var divTen=ten?"IDzX9gL.png":"quyUPXN.png";
     t10.setAttribute("src","https://i.imgur.com/"+divTen)
   };
  var k=function(eleven){
-    var divEleven=eleven?"IDzX9gL.png":"quyUPXN.png",
+    var divEleven=eleven?"IDzX9gL.png":"quyUPXN.png";
     t11.setAttribute("src","https://i.imgur.com/"+divEleven)
   };
  var l=function(twelve){
-    var divTwelve=twelve?"IDzX9gL.png":"quyUPXN.png",
+    var divTwelve=twelve?"IDzX9gL.png":"quyUPXN.png";
     t12.setAttribute("src","https://i.imgur.com/"+divTwelve)
   };
   
