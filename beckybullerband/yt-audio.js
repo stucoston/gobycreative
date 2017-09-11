@@ -297,7 +297,7 @@ function onYouTubeIframeAPIReady(){
   var y6=new YT.Player("youtube-player-6",{
     height:"0",
     width:"0",
-    videoId:one.dataset.video,
+    videoId:six.dataset.video,
     playerVars:{
       autoplay:six.dataset.autoplay,    
       loop:six.dataset.loop,
@@ -316,7 +316,7 @@ function onYouTubeIframeAPIReady(){
   var y7=new YT.Player("youtube-player-7",{
     height:"0",
     width:"0",
-    videoId:one.dataset.video,
+    videoId:seven.dataset.video,
     playerVars:{
       autoplay:seven.dataset.autoplay,    
       loop:seven.dataset.loop,
@@ -335,7 +335,7 @@ function onYouTubeIframeAPIReady(){
   var y8=new YT.Player("youtube-player-8",{
     height:"0",
     width:"0",
-    videoId:one.dataset.video,
+    videoId:eight.dataset.video,
     playerVars:{
       autoplay:eight.dataset.autoplay,    
       loop:eight.dataset.loop,
@@ -354,7 +354,7 @@ function onYouTubeIframeAPIReady(){
   var y9=new YT.Player("youtube-player-9",{
     height:"0",
     width:"0",
-    videoId:one.dataset.video,
+    videoId:nine.dataset.video,
     playerVars:{
       autoplay:nine.dataset.autoplay,    
       loop:nine.dataset.loop,
@@ -373,7 +373,7 @@ function onYouTubeIframeAPIReady(){
   var y10=new YT.Player("youtube-player-10",{
     height:"0",
     width:"0",
-    videoId:one.dataset.video,
+    videoId:ten.dataset.video,
     playerVars:{
       autoplay:ten.dataset.autoplay,    
       loop:ten.dataset.loop,
@@ -392,7 +392,7 @@ function onYouTubeIframeAPIReady(){
   var y11=new YT.Player("youtube-player-11",{
     height:"0",
     width:"0",
-    videoId:one.dataset.video,
+    videoId:eleven.dataset.video,
     playerVars:{
       autoplay:eleven.dataset.autoplay,    
       loop:eleven.dataset.loop,
@@ -411,7 +411,7 @@ function onYouTubeIframeAPIReady(){
   var y12=new YT.Player("youtube-player-12",{
     height:"0",
     width:"0",
-    videoId:one.dataset.video,
+    videoId:twelve.dataset.video,
     playerVars:{
       autoplay:twelve.dataset.autoplay,    
       loop:twelve.dataset.loop,
