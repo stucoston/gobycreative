@@ -355,43 +355,43 @@ function onYouTubeIframeAPIReady(){
     y12.getPlayerState()===YT.PlayerState.PLAYING||y12.getPlayerState()===YT.PlayerState.BUFFERING?(y12.pauseVideo(),c12(!1)):(y12.playVideo(),c12(!0))
   };
  s13.onclick=function(){
-    y13.getPlayerState()===YT.PlayerState.PLAYING||y13.getPlayerState()===YT.PlayerState.BUFFERING?(y13.pauseVideo(),c12(!1)):(y13.playVideo(),c13(!0))
+    y13.getPlayerState()===YT.PlayerState.PLAYING||y13.getPlayerState()===YT.PlayerState.BUFFERING?(y13.pauseVideo(),c13(!1)):(y13.playVideo(),c13(!0))
   };
  s14.onclick=function(){
-    y14.getPlayerState()===YT.PlayerState.PLAYING||y14.getPlayerState()===YT.PlayerState.BUFFERING?(y14.pauseVideo(),c12(!1)):(y14.playVideo(),c14(!0))
+    y14.getPlayerState()===YT.PlayerState.PLAYING||y14.getPlayerState()===YT.PlayerState.BUFFERING?(y14.pauseVideo(),c14(!1)):(y14.playVideo(),c14(!0))
   };
  s15.onclick=function(){
-    y15.getPlayerState()===YT.PlayerState.PLAYING||y15.getPlayerState()===YT.PlayerState.BUFFERING?(y15.pauseVideo(),c12(!1)):(y15.playVideo(),c15(!0))
+    y15.getPlayerState()===YT.PlayerState.PLAYING||y15.getPlayerState()===YT.PlayerState.BUFFERING?(y15.pauseVideo(),c15(!1)):(y15.playVideo(),c15(!0))
   };
  s16.onclick=function(){
-    y16.getPlayerState()===YT.PlayerState.PLAYING||y16.getPlayerState()===YT.PlayerState.BUFFERING?(y16.pauseVideo(),c12(!1)):(y16.playVideo(),c16(!0))
+    y16.getPlayerState()===YT.PlayerState.PLAYING||y16.getPlayerState()===YT.PlayerState.BUFFERING?(y16.pauseVideo(),c16(!1)):(y16.playVideo(),c16(!0))
   };
  s17.onclick=function(){
-    y17.getPlayerState()===YT.PlayerState.PLAYING||y17.getPlayerState()===YT.PlayerState.BUFFERING?(y17.pauseVideo(),c12(!1)):(y17.playVideo(),c17(!0))
+    y17.getPlayerState()===YT.PlayerState.PLAYING||y17.getPlayerState()===YT.PlayerState.BUFFERING?(y17.pauseVideo(),c17(!1)):(y17.playVideo(),c17(!0))
   };
  s18.onclick=function(){
-    y18.getPlayerState()===YT.PlayerState.PLAYING||y18.getPlayerState()===YT.PlayerState.BUFFERING?(y18.pauseVideo(),c12(!1)):(y18.playVideo(),c18(!0))
+    y18.getPlayerState()===YT.PlayerState.PLAYING||y18.getPlayerState()===YT.PlayerState.BUFFERING?(y18.pauseVideo(),c18(!1)):(y18.playVideo(),c18(!0))
   };
  s19.onclick=function(){
-    y19.getPlayerState()===YT.PlayerState.PLAYING||y19.getPlayerState()===YT.PlayerState.BUFFERING?(y19.pauseVideo(),c12(!1)):(y19.playVideo(),c19(!0))
+    y19.getPlayerState()===YT.PlayerState.PLAYING||y19.getPlayerState()===YT.PlayerState.BUFFERING?(y19.pauseVideo(),c19(!1)):(y19.playVideo(),c19(!0))
   };
  s20.onclick=function(){
-    y20.getPlayerState()===YT.PlayerState.PLAYING||y20.getPlayerState()===YT.PlayerState.BUFFERING?(y20.pauseVideo(),c12(!1)):(y20.playVideo(),c20(!0))
+    y20.getPlayerState()===YT.PlayerState.PLAYING||y20.getPlayerState()===YT.PlayerState.BUFFERING?(y20.pauseVideo(),c20(!1)):(y20.playVideo(),c20(!0))
   };
  s21.onclick=function(){
-    y21.getPlayerState()===YT.PlayerState.PLAYING||y21.getPlayerState()===YT.PlayerState.BUFFERING?(y21.pauseVideo(),c12(!1)):(y21.playVideo(),c21(!0))
+    y21.getPlayerState()===YT.PlayerState.PLAYING||y21.getPlayerState()===YT.PlayerState.BUFFERING?(y21.pauseVideo(),c21(!1)):(y21.playVideo(),c21(!0))
   };
  s22.onclick=function(){
-    y22.getPlayerState()===YT.PlayerState.PLAYING||y22.getPlayerState()===YT.PlayerState.BUFFERING?(y22.pauseVideo(),c12(!1)):(y22.playVideo(),c22(!0))
+    y22.getPlayerState()===YT.PlayerState.PLAYING||y22.getPlayerState()===YT.PlayerState.BUFFERING?(y22.pauseVideo(),c22(!1)):(y22.playVideo(),c22(!0))
   };
  s23.onclick=function(){
-    y23.getPlayerState()===YT.PlayerState.PLAYING||y23.getPlayerState()===YT.PlayerState.BUFFERING?(y23.pauseVideo(),c12(!1)):(y23.playVideo(),c23(!0))
+    y23.getPlayerState()===YT.PlayerState.PLAYING||y23.getPlayerState()===YT.PlayerState.BUFFERING?(y23.pauseVideo(),c23(!1)):(y23.playVideo(),c23(!0))
   };
  s24.onclick=function(){
-    y24.getPlayerState()===YT.PlayerState.PLAYING||y24.getPlayerState()===YT.PlayerState.BUFFERING?(y24.pauseVideo(),c12(!1)):(y24.playVideo(),c24(!0))
+    y24.getPlayerState()===YT.PlayerState.PLAYING||y24.getPlayerState()===YT.PlayerState.BUFFERING?(y24.pauseVideo(),c24(!1)):(y24.playVideo(),c24(!0))
   };
  s25.onclick=function(){
-    y25.getPlayerState()===YT.PlayerState.PLAYING||y25.getPlayerState()===YT.PlayerState.BUFFERING?(y25.pauseVideo(),c12(!1)):(y25.playVideo(),c25(!0))
+    y25.getPlayerState()===YT.PlayerState.PLAYING||y25.getPlayerState()===YT.PlayerState.BUFFERING?(y25.pauseVideo(),c25(!1)):(y25.playVideo(),c25(!0))
   };
   
   var y1=new YT.Player("youtube-player-1",{
