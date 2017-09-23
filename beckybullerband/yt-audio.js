@@ -21,7 +21,7 @@ function onYouTubeIframeAPIReady(){
       s10=document.getElementById("youtube-audio-10"),
       s11=document.getElementById("youtube-audio-11"),
       s12=document.getElementById("youtube-audio-12"),
-      s13=document.getElementById("youtube-audio-13"),
+     /* s13=document.getElementById("youtube-audio-13"),
       s14=document.getElementById("youtube-audio-14"),
       s15=document.getElementById("youtube-audio-15"),
       s16=document.getElementById("youtube-audio-16"),
@@ -33,7 +33,7 @@ function onYouTubeIframeAPIReady(){
       s22=document.getElementById("youtube-audio-22"),
       s23=document.getElementById("youtube-audio-23"),
       s24=document.getElementById("youtube-audio-24"),
-      s25=document.getElementById("youtube-audio-25"),
+      s25=document.getElementById("youtube-audio-25"),*/
       
       t1=document.createElement("img"),
       t2=document.createElement("img"),
@@ -47,7 +47,7 @@ function onYouTubeIframeAPIReady(){
       t10=document.createElement("img"),
       t11=document.createElement("img"),
       t12=document.createElement("img"),
-      t13=document.createElement("img"),
+     /* t13=document.createElement("img"),
       t14=document.createElement("img"),
       t15=document.createElement("img"),
       t16=document.createElement("img"),
@@ -59,7 +59,7 @@ function onYouTubeIframeAPIReady(){
       t22=document.createElement("img"),
       t23=document.createElement("img"),
       t24=document.createElement("img"),
-      t25=document.createElement("img");
+      t25=document.createElement("img");*/
  
     t1.setAttribute("id","youtube-icon-1"),
     t2.setAttribute("id","youtube-icon-2"),
@@ -73,7 +73,7 @@ function onYouTubeIframeAPIReady(){
     t10.setAttribute("id","youtube-icon-10"),
     t11.setAttribute("id","youtube-icon-11"),
     t12.setAttribute("id","youtube-icon-12"),
-    t13.setAttribute("id","youtube-icon-13"),
+   /* t13.setAttribute("id","youtube-icon-13"),
     t14.setAttribute("id","youtube-icon-14"),
     t15.setAttribute("id","youtube-icon-15"),
     t16.setAttribute("id","youtube-icon-16"),
@@ -85,7 +85,7 @@ function onYouTubeIframeAPIReady(){
     t22.setAttribute("id","youtube-icon-22"),
     t23.setAttribute("id","youtube-icon-23"),
     t24.setAttribute("id","youtube-icon-24"),
-    t25.setAttribute("id","youtube-icon-25"),
+    t25.setAttribute("id","youtube-icon-25"),*/
    
     t1.style.cssText="cursor:pointer;cursor:hand",
     t2.style.cssText="cursor:pointer;cursor:hand",
@@ -99,7 +99,7 @@ function onYouTubeIframeAPIReady(){
     t10.style.cssText="cursor:pointer;cursor:hand",
     t11.style.cssText="cursor:pointer;cursor:hand",
     t12.style.cssText="cursor:pointer;cursor:hand",
-    t13.style.cssText="cursor:pointer;cursor:hand",
+   /* t13.style.cssText="cursor:pointer;cursor:hand",
     t14.style.cssText="cursor:pointer;cursor:hand",
     t15.style.cssText="cursor:pointer;cursor:hand",
     t16.style.cssText="cursor:pointer;cursor:hand",
@@ -111,7 +111,7 @@ function onYouTubeIframeAPIReady(){
     t22.style.cssText="cursor:pointer;cursor:hand",
     t23.style.cssText="cursor:pointer;cursor:hand",
     t24.style.cssText="cursor:pointer;cursor:hand",
-    t25.style.cssText="cursor:pointer;cursor:hand",
+    t25.style.cssText="cursor:pointer;cursor:hand",*/
   
   s1.appendChild(t1);
   s2.appendChild(t2);
@@ -125,7 +125,7 @@ function onYouTubeIframeAPIReady(){
   s10.appendChild(t10);
   s11.appendChild(t11);
   s12.appendChild(t12);
-  s13.appendChild(t13);
+ /* s13.appendChild(t13);
   s14.appendChild(t14);
   s15.appendChild(t15);
   s16.appendChild(t16);
@@ -137,7 +137,7 @@ function onYouTubeIframeAPIReady(){
   s22.appendChild(t22);
   s23.appendChild(t23);
   s24.appendChild(t24);
-  s25.appendChild(t25);
+  s25.appendChild(t25);*/
   
   var div1=document.createElement("div"),
       div2=document.createElement("div"),
@@ -151,7 +151,7 @@ function onYouTubeIframeAPIReady(){
       div10=document.createElement("div"),
       div11=document.createElement("div"),
       div12=document.createElement("div"),
-      div13=document.createElement("div"),
+     /* div13=document.createElement("div"),
       div14=document.createElement("div"),
       div15=document.createElement("div"),
       div16=document.createElement("div"),
@@ -163,7 +163,7 @@ function onYouTubeIframeAPIReady(){
       div22=document.createElement("div"),
       div23=document.createElement("div"),
       div24=document.createElement("div"),
-      div25=document.createElement("div");
+      div25=document.createElement("div");*/
   
     div1.setAttribute("id","youtube-player-1"),
     div2.setAttribute("id","youtube-player-2"),
@@ -177,7 +177,7 @@ function onYouTubeIframeAPIReady(){
     div10.setAttribute("id","youtube-player-10"),
     div11.setAttribute("id","youtube-player-11"),
     div12.setAttribute("id","youtube-player-12"),
-    div13.setAttribute("id","youtube-player-13"),
+   /* div13.setAttribute("id","youtube-player-13"),
     div14.setAttribute("id","youtube-player-14"),
     div15.setAttribute("id","youtube-player-15"),
     div16.setAttribute("id","youtube-player-16"),
@@ -189,7 +189,7 @@ function onYouTubeIframeAPIReady(){
     div22.setAttribute("id","youtube-player-22"),
     div23.setAttribute("id","youtube-player-23"),
     div24.setAttribute("id","youtube-player-24"),
-    div25.setAttribute("id","youtube-player-25"),
+    div25.setAttribute("id","youtube-player-25"),*/
   
   s1.appendChild(div1);
   s2.appendChild(div2);
@@ -203,7 +203,7 @@ function onYouTubeIframeAPIReady(){
   s10.appendChild(div10);
   s11.appendChild(div11);
   s12.appendChild(div12);
-  s13.appendChild(div13);
+ /* s13.appendChild(div13);
   s14.appendChild(div14);
   s15.appendChild(div15);
   s16.appendChild(div16);
@@ -215,7 +215,7 @@ function onYouTubeIframeAPIReady(){
   s22.appendChild(div22);
   s23.appendChild(div23);
   s24.appendChild(div24);
-  s25.appendChild(div25);
+  s25.appendChild(div25);*/
   
   var c1=function(s1){
     var div1=s1?"IDzX9gL.png":"quyUPXN.png";
@@ -265,7 +265,7 @@ function onYouTubeIframeAPIReady(){
     var div12=s12?"IDzX9gL.png":"quyUPXN.png";
     t12.setAttribute("src","https://i.imgur.com/"+div12)
   };
- var c13=function(s13){
+/* var c13=function(s13){
     var div13=s13?"IDzX9gL.png":"quyUPXN.png";
     t13.setAttribute("src","https://i.imgur.com/"+div13)
   };
@@ -316,7 +316,7 @@ function onYouTubeIframeAPIReady(){
  var c25=function(s25){
     var div25=s25?"IDzX9gL.png":"quyUPXN.png";
     t25.setAttribute("src","https://i.imgur.com/"+div25)
-  };
+  };*/
   
   s1.onclick=function(){
     y1.getPlayerState()===YT.PlayerState.PLAYING||y1.getPlayerState()===YT.PlayerState.BUFFERING?(y1.pauseVideo(),c1(!1)):(y1.playVideo(),c1(!0))
@@ -354,7 +354,7 @@ function onYouTubeIframeAPIReady(){
   s12.onclick=function(){
     y12.getPlayerState()===YT.PlayerState.PLAYING||y12.getPlayerState()===YT.PlayerState.BUFFERING?(y12.pauseVideo(),c12(!1)):(y12.playVideo(),c12(!0))
   };
- s13.onclick=function(){
+/* s13.onclick=function(){
     y13.getPlayerState()===YT.PlayerState.PLAYING||y13.getPlayerState()===YT.PlayerState.BUFFERING?(y13.pauseVideo(),c13(!1)):(y13.playVideo(),c13(!0))
   };
  s14.onclick=function(){
@@ -392,7 +392,7 @@ function onYouTubeIframeAPIReady(){
   };
  s25.onclick=function(){
     y25.getPlayerState()===YT.PlayerState.PLAYING||y25.getPlayerState()===YT.PlayerState.BUFFERING?(y25.pauseVideo(),c25(!1)):(y25.playVideo(),c25(!0))
-  };
+  };*/
   
   var y1=new YT.Player("youtube-player-1",{
     height:"0",
@@ -622,7 +622,7 @@ function onYouTubeIframeAPIReady(){
     }
   })
   
-  var y13=new YT.Player("youtube-player-13",{
+ /* var y13=new YT.Player("youtube-player-13",{
     height:"0",
     width:"0",
     videoId:s13.dataset.video,
@@ -867,6 +867,6 @@ function onYouTubeIframeAPIReady(){
         s25.data===YT.PlayerState.ENDED&&s25(!1)
       }
     }
-  })
+  })*/
   
 }
