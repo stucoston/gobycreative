@@ -46,7 +46,7 @@ function onYouTubeIframeAPIReady(){
       t9=document.createElement("img"),
       t10=document.createElement("img"),
       t11=document.createElement("img"),
-      t12=document.createElement("img"),
+      t12=document.createElement("img");
      /* t13=document.createElement("img"),
       t14=document.createElement("img"),
       t15=document.createElement("img"),
@@ -150,7 +150,7 @@ function onYouTubeIframeAPIReady(){
       div9=document.createElement("div"),
       div10=document.createElement("div"),
       div11=document.createElement("div"),
-      div12=document.createElement("div"),
+      div12=document.createElement("div");
      /* div13=document.createElement("div"),
       div14=document.createElement("div"),
       div15=document.createElement("div"),
